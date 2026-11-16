@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "worlds": 256,
+  "inadequate_reference_worlds": 240,
+  "balanced_partitions": 35,
+  "workloads": {
+    "anchored_sensitivity": {
+      "pair_count": 6,
+      "optimal_mean_setup": "1",
+      "optimal_layouts": 1,
+      "optima_with_positive_reference_rejection": 0,
+      "reference_rejected_from_A": 0,
+      "min_reference_rejected_among_optima": 0,
+      "max_reference_rejected_among_optima": 0
+    },
+    "all_cube_edges": {
+      "pair_count": 12,
+      "optimal_mean_setup": "4/3",
+      "optimal_layouts": 3,
+      "optima_with_positive_reference_rejection": 3,
+      "reference_rejected_from_A": 128,
+      "min_reference_rejected_among_optima": 128,
+      "max_reference_rejected_among_optima": 128
+    },
+    "feature_slices": {
+      "pair_count": 12,
+      "optimal_mean_setup": "1",
+      "optimal_layouts": 1,
+      "optima_with_positive_reference_rejection": 1,
+      "reference_rejected_from_A": 128,
+      "min_reference_rejected_among_optima": 128,
+      "max_reference_rejected_among_optima": 128
+    },
+    "uniform_pairs": {
+      "pair_count": 28,
+      "optimal_mean_setup": "11/7",
+      "optimal_layouts": 35,
+      "optima_with_positive_reference_rejection": 7,
+      "reference_rejected_from_A": 128,
+      "min_reference_rejected_among_optima": 0,
+      "max_reference_rejected_among_optima": 128
+    }
+  },
+  "matched_tie": {
+    "anchored_share": "3/5",
+    "mean_setup": "6/5",
+    "A_rejected": 128,
+    "B_rejected": 0
+  }
+}

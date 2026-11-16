@@ -33,6 +33,14 @@ Compare the output with `expected_results.json`. This standalone reconstruction,
 
 The checker also enumerates all 35 balanced partitions, verifies the workload mixture threshold of 3/5, and checks the single-membership recovery in all eight possible copy placements across 30 coordinate-permuted affine classes. With one additional membership and budget six, a fixed five-observation set permits rejection of 128/240 inadequate worlds in every class, even without class identity at selection time. Class identity is needed at adjudication.
 
+### Reproduce the workload comparison
+
+```sh
+python verify_workloads.py
+```
+
+Compare the output with `workload_results.json`. The four declared routine demand families are enumerated across all 35 balanced partitions. The results distinguish retention of the starting layout under strict-improvement scheduling from the range of capabilities across tied optima. This supplemental checker uses the same public eight-probe fixture; no other experimental materials are included.
+
 ## Scope and provenance
 
 The fixture is finite, noiseless and synthetic. Individual read and workflow setup costs are stipulated; replication and maintenance costs are excluded. Existential coverage is a reference capability, not achieved investigator performance. The class family is bounded. No empirical AI effect, pretrained-model evaluation, external replication, general scientific priority or intervention superiority is claimed.
