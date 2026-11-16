@@ -8,6 +8,8 @@ A resource-bounded system may retain ordinary error detection, individual eviden
 
 ## Interactive experiment
 
+[PROVE ME WRONG — guided counterfactual experience](experience.html) (download and open locally). Choose between two equally optimal workflows, spend a real simulated investigation budget, then replay the same hidden world. Blind mode includes adequate-class controls. The operations assistant is scripted; no live model is evaluated. The exact fixture and disclosure scope are unchanged.
+
 [Download the standalone interactive laboratory](index.html) (open the downloaded file in a browser). Optimize an evidence network, investigate one hidden world, then compare alternative arrangements or budgets. The laboratory uses only the public eight-probe fixture, includes an exact mathematical self-test, and needs no external service. The guided world is deliberately constructed, not a sampled empirical result. The demonstration was created on 16 November 2026 during the stated submission interval.
 
 ## Reproduce selected results
