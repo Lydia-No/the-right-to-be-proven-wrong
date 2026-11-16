@@ -6,6 +6,10 @@ Research author: **Linda Thorstensen**, independent researcher. AI x Epistemics 
 
 A resource-bounded system may retain ordinary error detection, individual evidence access and lower-order joint feasibility while losing affordable ways to reject an inadequate explanatory class. This repository accompanies a bounded research application of Future Capability Preservation (FCP), developed by Linda Thorstensen.
 
+## Interactive experiment
+
+[Download the standalone interactive laboratory](index.html) (open the downloaded file in a browser). Optimize an evidence network, investigate one hidden world, then compare alternative arrangements or budgets. The laboratory uses only the public eight-probe fixture, includes an exact mathematical self-test, and needs no external service. The guided world is deliberately constructed, not a sampled empirical result. The demonstration was created on 16 November 2026 during the stated submission interval.
+
 ## Reproduce selected results
 
 Requires Python 3.10 or newer; standard library only. No network access, credentials, model weights or external data required.
