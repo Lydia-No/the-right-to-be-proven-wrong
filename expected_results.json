@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "worlds": 256,
+  "affine_classes": 30,
+  "denominators": {
+    "zero_all_worlds": 256,
+    "constant_inadequate_worlds": 254,
+    "affine_inadequate_worlds": 240
+  },
+  "layouts": {
+    "A": {
+      "affordable_counts_1_to_4": [
+        8,
+        28,
+        56,
+        2
+      ],
+      "fixed_zero_rejected": 240,
+      "fixed_constant_rejected": 224,
+      "fixed_affine_rejected": 128,
+      "affine_existential": 192
+    },
+    "B": {
+      "affordable_counts_1_to_4": [
+        8,
+        28,
+        56,
+        2
+      ],
+      "fixed_zero_rejected": 240,
+      "fixed_constant_rejected": 224,
+      "fixed_affine_rejected": 0,
+      "affine_existential": 0
+    }
+  },
+  "balanced_partitions": 35,
+  "affine_viable_partitions": 7,
+  "workload_transition": "3/5",
+  "single_copy_options_verified": 8,
+  "single_copy_worst_class_aware_at_budget_5": "128/240",
+  "single_copy_worst_class_blind_fixed_five_reads_at_budget_6": "128/240",
+  "no_copy_worst_class_blind_fixed_five_reads_at_budget_7": "128/240"
+}
