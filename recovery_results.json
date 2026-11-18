@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "supplement_date": "2026-11-18",
+  "scope": "Exhaustive eight-probe worlds and exact ranks at d=3,7,15",
+  "eight_probe_enumeration": {
+    "worlds": 256,
+    "false_worlds": 240,
+    "budget": 5,
+    "layouts": {
+      "A": {
+        "fixed_rejected": 128,
+        "existential_rejected": 192
+      },
+      "B": {
+        "fixed_rejected": 0,
+        "existential_rejected": 0
+      },
+      "two_anchor_cover": {
+        "fixed_rejected": 128,
+        "existential_rejected": 192
+      }
+    }
+  },
+  "hamming_flat_and_recovery": [
+    {
+      "ell": 2,
+      "d": 3,
+      "probes": 8,
+      "workflows": 2,
+      "read_size": 4,
+      "setup_fee": 1,
+      "budget": 5,
+      "checks_per_completed_flat": 1,
+      "added_memberships_per_workflow": 1,
+      "total_added_memberships": 2,
+      "hamming_fixed_rate_all_worlds": "0",
+      "flat_fixed_rate_all_worlds": "1/2",
+      "recovered_fixed_rate_all_worlds": "1/2"
+    },
+    {
+      "ell": 3,
+      "d": 7,
+      "probes": 128,
+      "workflows": 16,
+      "read_size": 8,
+      "setup_fee": 5,
+      "budget": 13,
+      "checks_per_completed_flat": 4,
+      "added_memberships_per_workflow": 4,
+      "total_added_memberships": 64,
+      "hamming_fixed_rate_all_worlds": "0",
+      "flat_fixed_rate_all_worlds": "15/16",
+      "recovered_fixed_rate_all_worlds": "15/16"
+    },
+    {
+      "ell": 4,
+      "d": 15,
+      "probes": 32768,
+      "workflows": 2048,
+      "read_size": 16,
+      "setup_fee": 13,
+      "budget": 29,
+      "checks_per_completed_flat": 11,
+      "added_memberships_per_workflow": 11,
+      "total_added_memberships": 22528,
+      "hamming_fixed_rate_all_worlds": "0",
+      "flat_fixed_rate_all_worlds": "2047/2048",
+      "recovered_fixed_rate_all_worlds": "2047/2048"
+    }
+  ]
+}

@@ -41,6 +41,16 @@ python verify_workloads.py
 
 Compare the output with `workload_results.json`. The four declared routine demand families are enumerated across all 35 balanced partitions. The results distinguish retention of the starting layout under strict-improvement scheduling from the range of capabilities across tied optima. This supplemental checker uses the same public eight-probe fixture; no other experimental materials are included.
 
+### Mathematical supplement added 18 November 2026
+
+[Preserving affordable falsification](docs/fixed_budget_recovery.md) gives the linear-algebra explanation and a proof of recovery at the original investigation budget. In a family of Hamming workflow partitions, every affordable read exposes zero parity checks. Sharing selected records to complete an affine flat restores the comparison partition's fixed-read rejection rate. At $d=7$, this recovers $15/16$ (93.75%) at budget 13 with four added memberships per workflow. The construction uses the known affine class when selecting the shared records and the read. It also explains the two-anchor recovery of Layout A's reference rates in the eight-probe fixture.
+
+```sh
+python verify_recovery.py
+```
+
+Compare the output with `recovery_results.json`. This additional checker exhaustively enumerates the eight-probe worlds and checks exact ranks for the constructions at $d=3,7,15$. The supplement records its addition date and the 16 November sprint reconstruction commit. Added memberships have replication and maintenance costs outside the stipulated read/setup budget.
+
 ## Scope and provenance
 
 The fixture is finite, noiseless and synthetic. Individual read and workflow setup costs are stipulated; replication and maintenance costs are excluded. Existential coverage is a reference capability, not achieved investigator performance. The class family is bounded. No empirical AI effect, pretrained-model evaluation, external replication, general scientific priority or intervention superiority is claimed.
